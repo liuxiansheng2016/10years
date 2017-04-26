@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>十年后</title>
+    <!-- 视口设置 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <!-- IE优化 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 引入bootstrap的css文件 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- 引入自己css文件 -->
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+   
+    <!-- 判断，如果是IE9以下，引入兼容h5标签的js文件，注意空格的位置 -->
+    
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <![end if] -->
+    
+    <script src="js/angular.js"></script>
+  <!-- 引入第三方路由-->
+    <script src="js/angular-ui-router.js"></script>
+
+    <!-- 引入jquery的js文件 -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- 引入bootstrap的js文件 -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>  
+    
+ 
+
+</head>
+<body>
+  <!-- 导航条区开始 -->
+
+     <div class="container nav-container">
+       <div class="nav-left">
+           <a class="change">动态</a>
+           <a class="find">发现</a>
+       </div>
+
+       <div class="nav-logo"> 
+       </div>
+       <div class="nav-right">
+           <a href="login.html">登录</a>
+            <a href="about.html">首页</a>
+       </div>
+   </div>
+
+   <!--导航条区结束  -->
+  <!-- 焦点图区开始 -->
+  <!-- 显示路由页面的容器开始-->
+  <div id="main" >
+    <div class="replace" style="display:none">
+      <div class=" container detail-wrapper">
+
+        <div class="detail-box detail-life col-xs-3   ">
+          <a href="#" class="detail-content">
+            <div class="detail-title">生活</div>
+          </a>
+          <div class="detail-number">
+            <div class="number1">
+              <p>13121</p>
+              梦想
+            </div>
+
+            <div class="number2">
+              <p>18827</p>
+              动态
+            </div>
+          </div>
+        </div>
+        <div class="detail-box detail-study col-xs-3   ">
+          <a href="#" class="detail-content">
+            <div class="detail-title">学习</div>
+          </a>
+          <div class="detail-number">
+            <div class="number1">
+              <p>13121</p>
+              梦想
+            </div>
+
+            <div class="number2">
+              <p>18827</p>
+              动态
+            </div>
+          </div>
+        </div>
+        <div class="detail-box detail-job  col-xs-3  ">
+          <a href="#" class="detail-content">
+            <div class="detail-title">工作</div>
+          </a>
+          <div class="detail-number">
+            <div class="number1">
+              <p>13121</p>
+              梦想
+            </div>
+
+            <div class="number2">
+              <p>18827</p>
+              动态
+            </div>
+          </div>
+        </div>
+        <div class="detail-box detail-inovation  col-xs-3 ">
+          <a href="#" class="detail-content">
+            <div class="detail-title">创新</div>
+          </a>
+          <div class="detail-number">
+            <div class="number1">
+              <p>13121</p>
+              梦想
+            </div>
+
+            <div class="number2">
+              <p>18827</p>
+              动态
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-box detail-health col-xs-3  ">
+          <a href="#" class="detail-content">
+            <div class="detail-title">健康</div>
+          </a>
+          <div class="detail-number">
+            <div class="number1">
+              <p>13121</p>
+              梦想
+            </div>
+
+            <div class="number2">
+              <p>18827</p>
+              动态
+            </div>
+          </div>
+        </div>
+        <div class="detail-box detail-travel  col-xs-3 ">
+          <a href="#" class="detail-content">
+            <div class="detail-title">旅行</div>
+          </a>
+          <div class="detail-number">
+            <div class="number1">
+              <p>13121</p>
+              梦想
+            </div>
+
+            <div class="number2">
+              <p>18827</p>
+              动态
+            </div>
+          </div>
+        </div>
+        <div class="detail-box detail-art  col-xs-3   ">
+          <a href="#" class="detail-content">
+            <div class="detail-title">艺术</div>
+          </a>
+          <div class="detail-number">
+            <div class="number1">
+              <p>13121</p>
+              梦想
+            </div>
+
+            <div class="number2">
+              <p>18827</p>
+              动态
+            </div>
+          </div>
+        </div>
+        <div class="detail-box detail-feel  col-xs-3  ">
+          <a href="#" class="detail-content">
+            <div class="detail-title">感情</div>
+          </a>
+          <div class="detail-number">
+            <div class="number1">
+              <p>13121</p>
+              梦想
+            </div>
+
+            <div class="number2">
+              <p>18827</p>
+              动态
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+     <div class="container banner" style="background-image:url(image/book.jpg)">
+    <div class="banner-content">
+      <h1>梦想</h1>
+      <div class="banner-bottom">
+        <div class="banner-left number">
+          <p>2639</p>
+          <p>梦想</p>
+        </div>
+         <div class="banner-right number">
+          <p>4906</p>
+          <p>动态</p>
+        </div>
+       <span> 
+       </span>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- 焦点图区结束 -->
+ <!-- 显示路由页面的容器结束-->
+  
+<!-- 标题区开始 -->
+<div class=title>
+  <div class="container title-container" onMouseOver="this.style.borderBottom='none'" onMouseout="this.style.borderBottom='1px solid #00B4FF'">
+  <div class="row"> 
+  </div>
+      <div class="col-xs-4 line" >梦想</div>
+      <div class="col-xs-4  line" >梦想家</div>
+      <div class="col-xs-4 line" >动态</div>
+  </div>
+</div>
+<!-- 标题区结束 -->
+ <div id="show" style="display:block">
+ </div>
+<!-- 图片列表区开始 -->
+<div class="container " id="list" >
+   
+</div>
+  <!-- 分页工具条开始 -->
+    <!--   <nav class="text-center" id="pagerTools">
+      <span id="pageInfo">共xxx条记录，每页xx条，共xxx页，当前第xx页</span>
+    <a href="javascript:;" id="firstBtn">首页</a>
+    <a href="javascript:;" id="prevBtn">上页</a>
+    <a href="javascript:;" id="nextBtn">下页</a>
+    <a href="javascript:;" id="lastBtn">末页</a>
+    </nav> -->
+
+  
+  <!-- 加载更多 开始 -->
+  <div id="loading">
+    <a href="javascript:void(0);" class="btn">
+      加载更多
+      <div class="img" style="display:none;">
+        <img src="image/loader.gif" alt="">
+      </div>
+    </a>
+  </div>
+  <!-- 加载更多 结束 -->
+
+  <!-- 回到顶部按钮开始 -->
+  <a href="#" id="topBtn" style="display:block"></a>
+  <!-- 回到顶部按钮结束 -->
+
+        <!-- 分页工具条结束 -->
+    <script type="text/javascript">
+
+    $('#show').html('<img src="image/loading.gif" width="20">' +  '加载中...');
+
+   
+    </script>
+    <script type="text/javascript" src="js/page/ajax.js"></script>
+</body>
+</html>

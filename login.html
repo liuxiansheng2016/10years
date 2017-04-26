@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分享你的故事</title>
+    <!-- 视口设置 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <!-- IE优化 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 引入bootstrap的css文件 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- 引入自己的css文件 -->
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <!-- 判断，如果是IE9以下，引入兼容h5标签的js文件 -->
+    
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <![end if] -->
+
+    <!-- 引入jquery的js文件 -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- 引入自己的js文件 -->
+    <script type="text/javascript" src="js/page/login-slider.js"></script>
+    <script type="text/javascript" src="js/page/login-scroll.js"></script>
+    <script type="text/javascript" src="js/page/login.js"></script>
+    <script type="text/javascript" src="js/page/register.js"></script>
+
+    <!-- 引入bootstrap的js文件 -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>  
+</head>
+<body>
+    <!-- 顶部开始 -->
+   <div class="header" id="header">
+         <div class="container nav ">
+            <div class="wrapper">
+                <h1><a href="#" class="navbar-brand"></a></h1>
+                <a href="about.html" class="register">关于我们</a>
+                <a href="javascript:;" class="login">注册</a>
+            </div>
+             <div class="header-form">
+                 <h2></h2>
+                <div class="account" >
+                    <div class="username">
+                        <input class="account-input" id="userlogin" type="text" placeholder="邮箱或手机号">
+                    </div>
+                     <div class="password">
+                        <input  class="account-input" id="passlogin" type="password" placeholder="密码"> 
+                     </div>
+                     <div class="account-check" id="remeber">
+                        <div class="lable">
+                         <input type="checkbox" value="rember">记住我
+                        </div>
+                        <div class="remeber_msg" style="display:none">为了您的信息安全，请不要在网吧或公用电脑上使用此功能！
+                        </div>
+                        <a href="#">忘记密码?</a>
+                     </div>
+                   <button type="button" class="btn" id="login-btn">登录
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                   </button>
+                 </div>
+                 <div class="account-register none" >
+                   <div id="owl-login" class="">
+                    <div class="hand"></div>
+                    <div class="hand hand-r"></div>
+                    <div class="arms">
+                        <div class="arm"></div>
+                        <div class="arm arm-r"></div>
+                    </div>
+                    </div>
+                    <div class="username">
+                        <input class="account-input" id="nameregister" type="text" placeholder="邮箱或手机号">
+                    </div>
+                     <div class="password">
+                        <input  class="account-input" id="passregister" type="password" placeholder="密码"> 
+                     </div>
+                    
+                     <div class="security">
+                       <input type="text" placeholder="验证码">
+                       <div class="security-right">
+                         <div>
+                          
+                         </div>
+                        <a class="icon icon-redo2"></a>
+                       </div>
+                     </div>
+                       
+                    <button type="button" class="btn" id="register-btn">注册
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                   </button>
+                 </div>
+                 <div class="header-msg">
+                       <p>「十年后」是一个基于梦想的经验交流社区。</p>
+                        <p>在这里，你可以自由的分享关于未来梦想的真实想法，</p>
+                        <p>并探索更多有趣的梦想，结交志同道合的人。</p>
+                 </div>
+                 <div class="icon-down"></div>
+             </div>
+            
+        </div>
+   </div>
+   <!-- 顶部结束 -->
+    <!-- 时间轴区开始 -->
+  <section class="timesection" id="timeSection">
+      <div class="container time-line">
+        <div id="list" >
+          <div id="list-wrapper" style="left:-1000px;">
+            <div id="time-content" class="time-content">
+              <div class="time-date">
+                <p>2013</p>
+                May 18
+              </div>
+              <div class="time-right">
+                <h3>一个会议</h3>
+                <p>@Fenglin Campus,Fudan</p>
+                <span>首次技术启动会议，但是两个技术人员直接消失。这不重要。重要的是，十年后，那次会议现场的所有人会变成什么样？</span>
+               </div>
+            </div>
+            <div id="time-content" class="time-content">
+             <div class="time-date">
+                <p>2016</p>
+                Sep 10
+              </div>
+              <div class="time-right">
+                <h3>关于梦想</h3>
+                <p>@liuxiansheng,Shanghai</p>
+                <span>你在坚信什么？唯有你的梦不可欺，唯有你的努力不能被辜负</span>
+               </div>
+            </div>
+            <div id="time-content" class="time-content">
+              <div class="time-date">
+                <p>2013</p>
+                Nov 07
+              </div>
+              <div class="time-right">
+                <h3>你所看到的开始</h3>
+                <p>@Jiafa Mansion,Shanghai</p>
+                <span>10years.me网站正式上线。你所使用的域名第一次激活，你所看到的历史开始上演</span>
+               </div>
+            </div>
+            <div id="time-content" class="time-content">
+              <div class="time-date">
+                <p>2014</p>
+               Oct 17
+              </div>
+              <div class="time-right">
+                <h3>梦想的移动化</h3>
+                <p>@Yangpu,Shanghai</p>
+                <span>IOS版本正式上线，让人们可以更好地记录追梦历程</span>
+               </div>
+            </div>
+            <div id="time-content" class="time-content">
+              <div class="time-date">
+                <p>2014</p>
+               Oct 17
+              </div>
+              <div class="time-right">
+                <h3>记录追梦历程</h3>
+                <p>@Yangpu,Shanghai</p>
+                <span>你可以基于每个梦想随时记录实时的追梦历程，以及你关于梦想瞬间的想法。我们不希望你在这里仅仅是许愿，而是真正地把自己的梦想映射到今日的生活</span>
+               </div>
+            </div>
+            <div id="time-content" class="time-content">
+             <div class="time-date">
+                <p>2016</p>
+               Nov 15
+              </div>
+              <div class="time-right">
+                <h3>创建属于你的梦想</h3>
+                <p>@ 十年后</p>
+                <span>点击时间轴上的图标即可添加梦想。只需填入该梦想的名称，预期的实现时间，以及对该梦想的描述，就可成功创建</span>
+               </div>
+            </div>
+          </div>
+
+        </div>
+
+     <!-- 左右箭头开始 -->
+    <a href="javascript:;" id="prev" class="arrow" style="dispaly:block"></a>
+    <a href="javascript:;" id="next" class="arrow" style="dispaly:block"></a>
+    <!-- 左右箭头结束 -->
+      </div>
+       <!-- 时间轴开始 -->
+    <div class="timeline">
+      <div class="triangle"></div>
+      <div class="timecenter"></div>
+      <div id="time-box">
+          <div id="record-wrapper">
+        <div id="record-slider" class="record-slider" style="left: 0px;" >
+          <div class="time-item">
+            <div class="time-record record1">关于梦想</div>
+          </div>
+          <div class="time-item">
+            <div class="time-record record2">你所看到的开始</div>
+          </div>
+          <div class="time-item">
+            <div class="time-record record3">梦想的移动化</div>
+          </div>
+          <div class="time-item">
+            <div class="time-record record4">记录追梦历程</div>
+          </div>
+          <div class="time-item">
+            <div class="time-record record5">创建属于你的梦</div>
+          </div>
+          <div class="time-item">
+            <div class="time-record record6">一个开始</div>
+          </div>
+
+        </div>
+         
+      </div>
+      </div>
+    
+    
+    </div>
+    <!-- 时间轴结束 -->
+  </section>
+  <!-- 探索区开始 -->
+  <section class="exploreSection" id="exploreSection">
+      <div class="container explore">
+          <h2>探索更多有趣的梦想</h2>
+          <div class="explore-slider">
+            发现在
+            <div id="title-box">
+              <div id="title-wrapper">
+                  <div id="slider1">
+                        <a href="page.html" id="write">生活</a>
+                        <a href="page.html" id="write">学习</a>
+                        <a href="page.html" id="write">工作</a>
+                        <a href="page.html" id="write">创新</a>
+                        <a href="page.html" id="write">健康</a>
+                        <a href="page.html" id="write">旅行</a>
+                        <a href="page.html" id="write">艺术</a>
+                        <a href="page.html" id="write">感情</a>
+                  </div>
+                  <div id="slider2">    
+                  </div>
+              </div>
+            </div>
+            的梦想家
+      </div>
+      </div>
+  </section>
+  <!-- 探索区结束 -->
+  <!-- 详情区开始 -->
+ <section class="detailSection" id="detailSection">
+   <div class=" container detail-wrapper">
+    
+       <div class="detail-box detail-life col-xs-3 ">
+         <a href="page.html" class="detail-content">
+           <div class="detail-title">生活</div>
+         </a>
+         <div class="detail-number">
+           <div class="number1">
+             <p>13121</p>
+             梦想
+           </div>
+
+           <div class="number2">
+             <p>18827</p>
+             动态
+           </div>
+         </div>
+       </div>
+       <div class="detail-box detail-study  col-xs-3 ">
+         <a href="page.html" class="detail-content">
+           <div class="detail-title">学习</div>
+         </a>
+         <div class="detail-number">
+           <div class="number1">
+             <p>13121</p>
+             梦想
+           </div>
+
+           <div class="number2">
+             <p>18827</p>
+             动态
+           </div>
+         </div>
+       </div>
+       <div class="detail-box detail-job  col-xs-3  ">
+         <a href="page.html" class="detail-content">
+           <div class="detail-title">工作</div>
+         </a>
+         <div class="detail-number">
+           <div class="number1">
+             <p>13121</p>
+             梦想
+           </div>
+
+           <div class="number2">
+             <p>18827</p>
+             动态
+           </div>
+         </div>
+       </div>
+       <div class="detail-box detail-inovation  col-xs-3 ">
+         <a href="page.html" class="detail-content">
+           <div class="detail-title">创新</div>
+         </a>
+         <div class="detail-number">
+           <div class="number1">
+             <p>13121</p>
+             梦想
+           </div>
+
+           <div class="number2">
+             <p>18827</p>
+             动态
+           </div>
+         </div>
+       </div>
+
+       <div class="detail-box detail-health  col-xs-3 ">
+         <a href="page.html" class="detail-content">
+           <div class="detail-title">健康</div>
+         </a>
+         <div class="detail-number">
+           <div class="number1">
+             <p>13121</p>
+             梦想
+           </div>
+
+           <div class="number2">
+             <p>18827</p>
+             动态
+           </div>
+         </div>
+       </div>
+       <div class="detail-box detail-travel  col-xs-3 ">
+         <a href="page.html" class="detail-content">
+           <div class="detail-title">旅行</div>
+         </a>
+         <div class="detail-number">
+           <div class="number1">
+             <p>13121</p>
+             梦想
+           </div>
+
+           <div class="number2">
+             <p>18827</p>
+             动态
+           </div>
+         </div>
+       </div>
+       <div class="detail-box detail-art  col-xs-3 ">
+         <a href="page.html" class="detail-content">
+           <div class="detail-title">艺术</div>
+         </a>
+         <div class="detail-number">
+           <div class="number1">
+             <p>13121</p>
+             梦想
+           </div>
+
+           <div class="number2">
+             <p>18827</p>
+             动态
+           </div>
+         </div>
+       </div>
+       <div class="detail-box detail-feel  col-xs-3 ">
+         <a href="page.html" class="detail-content">
+           <div class="detail-title">感情</div>
+         </a>
+         <div class="detail-number">
+           <div class="number1">
+             <p>13121</p>
+             梦想
+           </div>
+
+           <div class="number2">
+             <p>18827</p>
+             动态
+           </div>
+         </div>
+       </div>
+
+
+   </div>
+ </section>
+ <!-- 详情区结束 -->
+  <!-- 底部开始 -->
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content col-lg-3 col-sm-6 ">
+                <h2>十年后</h2>
+                <p>与世界分享你的追梦历程</p>
+                <div class="footer-intro">「十年后」是一个基于梦想的经验交流社区。在这里，你可以自由的分享关于未来梦想的真实想法，并探索更多有趣的梦想，结交志同道合的人。</div>
+            </div>
+            <div class=" footer-ul col-lg-3  col-sm-6">
+                <ul>
+                    <div class="footer-title">关于我们</div>
+                    <li>关于十年后</li>
+                    <li>团队成员</li>
+                    <li>加入我们</li>
+                    <li>用户协议</li>
+                    <li>回到旧版</li>
+                </ul>
+            </div>
+             <div class=" footer-ul col-lg-3 col-md-4 col-sm-6">
+                <ul>
+                    <div class="footer-title">媒体报道</div>
+                    <li>PingWest</li>
+                    <li>动点科技</li>
+                    <li>IT桔子</li>
+                    <li>创业邦</li>
+                    <li>i黑马</li>
+                </ul>
+            </div>
+            <div class="footer-right col-lg-3 col-sm-6">
+                 <div class="footer-title footer-ul">下载应用</div>
+                 <div class="footer-btn-content">
+                     <div class="footer-btn">
+                       <a href="#">iOS版</a> 
+                      </div>
+                     <div class="footer-btn">
+                        <a href="#">Android版</a>
+                     </div>
+                 </div>
+                 
+                 <div class="qrcode">
+                     <img src="image/qrcode.png" alt="">
+                 </div>
+            </div>
+           
+        </div>
+         <div class="footer-copyright">
+                © 2013 - 2015 <a href="http://10years.me/">10years.me</a>. All Rights Reserved. Created in China. 沪ICP备13021804号<br><br>
+                <a href=""><img src="image/footer1.png"></a>&nbsp;
+                <a href=""><img src="image/footer2.png" height="45"></a>
+            </div>
+    </section>
+    <!-- 底部结束 -->
+    <!-- 侧边滚动监听 -->
+    <div id="nav-right">
+   
+       <a href="#header" class="nav1"></a>
+        <a href="#timeSection" class="nav2"></a>
+      <a href="#exploreSection" class="nav3"></a>
+       <a href="#detailSection" class="nav4"></a>
+    
+    </div>
+</body>
+</html>
